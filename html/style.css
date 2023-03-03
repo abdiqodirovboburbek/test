@@ -1,0 +1,23 @@
+body{
+    background-color: red;
+}
+.jadval{
+    background-color: green;
+    border: 2px solid yellow;
+     width: 1000px; 
+     margin-left: 200px;
+}
+.test1{
+    width: 400px;
+    height: 400px; 
+    background-color: aqua; 
+    margin-left: 40%;
+    margin-top: 50px;
+}
+.test2{
+    width: 300px;
+    height: 400px; 
+    background-color: black; 
+    margin-left: 40%;
+    margin-top: 50px;
+}
