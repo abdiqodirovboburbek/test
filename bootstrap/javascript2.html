@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JavaScript</title>
+        <style>
+            ul.menu li {
+  display:inline;
+}
+        </style>
+    </head>
+    <body>
+        <div id="list">1</div>
+     <script>
+        const Mevalar=['Banan','Olma','Apelsin','Mandarin'];
+        const fLane=Mevalar.length;
+            // console.log(Mevalar);
+        var text="<ul class='menu'>";
+            for (let i=0;i<fLane;i++)
+            {
+             text +="<li> " +Mevalar[i]+ " </li>";
+            }
+            text +="</ul>";
+            document.getElementById("list").innerHTML=text;
+
+     </script>
+    </body>
+</html>
